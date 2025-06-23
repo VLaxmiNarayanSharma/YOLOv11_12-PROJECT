@@ -126,3 +126,14 @@ https://drive.google.com/file/d/13HZabUJg8mQw3Zm2nYI7E2eq_muA3oLA/view?usp=shari
 
 ##Drive Link to download YOLO PCB Environment
 https://drive.google.com/file/d/1hyScRYRRFoIkIB46Tmy85q161mn59VDo/view?usp=sharing
+
+
+cd ~/Downloads  # or the directory where the file is located
+mkdir LINUX_PCB_env
+tar -xzf LINUX_PCB_env.tar.gz -C LINUX_PCB_env
+source ~/miniconda3/etc/profile.d/conda.sh
+source ~/anaconda3/etc/profile.d/conda.sh
+cd LINUX_PCB_env
+./bin/conda-unpack
+source bin/activate
+
